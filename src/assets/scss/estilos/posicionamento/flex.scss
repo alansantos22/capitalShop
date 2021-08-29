@@ -1,0 +1,76 @@
+.d-flex{
+    &--cont{
+        &-center{
+            display: flex;
+            justify-content: center;
+        }
+        &-evenly{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        &-around{
+            display: flex;
+            justify-content: space-around;
+        }
+        &-between{
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+    &-dir{
+        &Col{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
+.dR-flex{
+    display: flex;
+    @media screen and (max-width:$mobile){
+        flex-direction: column;
+        align-items: center;
+    }
+    &--cont{
+        &-center{
+            display: flex;
+            justify-content: center;
+            @media screen and (max-width:$mobile){
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+        &-evenly{
+            display: flex;
+            justify-content: space-evenly;
+            @media screen and (max-width:$mobile){
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+        &-around{
+            display: flex;
+            justify-content: space-around;
+            @media screen and (max-width:$mobile){
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+        &-between{
+            display: flex;
+            justify-content: space-between;
+            @media screen and (max-width:$mobile){
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    }
+    &--ali{
+        &-center{
+            display: flex;
+            align-items: center;
+        }
+        @media screen and (max-width:$mobile){
+            flex-direction: column;
+        }
+    }
+}

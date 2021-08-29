@@ -1,0 +1,40 @@
+.d-{
+    &flex{
+        display: flex;
+    }
+    &inline{
+        display: inline;
+    }
+    &block{
+        display: block;
+    }
+    &none{
+        display: none;
+    }
+}
+//Aparecer apenas no mobile
+.dm-none{
+    display: none;
+    @media screen and (max-width: $mobile){
+        display: block;
+    }
+}
+.dm-none-flex{
+    display: none;
+    @media screen and (max-width: $mobile){
+        display: flex;
+    }
+}
+//Aparecer apenas desktop
+.dd-none{
+    display: block;
+    @media screen and (max-width: $mobile){
+        display: none;
+    }
+}
+.dd-none-flex{
+    display: flex;
+    @media screen and (max-width: $mobile){
+        display: none;
+    }
+}

@@ -1,0 +1,199 @@
+// Keyframes
+
+@keyframes modalZoom{
+    from{transform: scale(0);}
+    to{transform: scale(1);}
+}
+@keyframes modalZoom2{
+    from{transform: scale(0);left:-400px;bottom: -1000px;}
+    to{transform: scale(1);;left:0px;bottom: 0px;}
+}
+@keyframes zoomOut{
+    to{transform: scale(0.92);}
+}
+@keyframes zoomIn{
+    to{transform: scale(1.10);}
+}
+@keyframes sanfona{
+    0%{width: 0%;overflow: hidden;}
+    100%{width:100%;}
+}
+@keyframes progressBarSlider{
+    0%,15%{width: 0%;overflow: hidden;}
+    100%{width:100%;}
+}
+@keyframes sanfona_subMenu{
+    0%{width: 0px;overflow: hidden;font-size:0px;}
+    75%{font-size: 0px}
+    100%{width:200px;font-size:22px;}
+}
+@keyframes andarEsquerda{
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0);
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+@keyframes moveStar{
+    from{transform: translateX(0px)}
+    to{transform: translateX(-3000px)}
+}
+
+@keyframes cimaBaixo{
+    from{margin-top: -1000;opacity:0;}
+    to{margin-top: 0;opacity: 1;}
+}
+@keyframes showOpacity{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+@keyframes quicar{
+    0%{transform: translateY(-2000px);}
+    30%{transform: translateY(0px);}
+    40%{transform: translateY(150px);}
+    60%{transform: translateY(0px);}
+    80%{transform: translateY(80px);}
+    100%{transform: translateY(0px);}
+}
+
+@keyframes quicar2{
+    from,
+    20%,
+    53%,
+    80%,
+    to {
+      -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+      animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  
+    40%,
+    43% {
+      -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+      animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+      -webkit-transform: translate3d(0, -30px, 0);
+      transform: translate3d(0, -30px, 0);
+    }
+  
+    70% {
+      -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+      animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+      -webkit-transform: translate3d(0, -15px, 0);
+      transform: translate3d(0, -15px, 0);
+    }
+  
+    90% {
+      -webkit-transform: translate3d(0, -4px, 0);
+      transform: translate3d(0, -4px, 0);
+    }
+}
+
+@keyframes jello{
+    from,
+    11.1%,
+    to {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+
+    22.2% {
+        -webkit-transform: skewX(-12.5deg) skewY(-12.5deg);
+        transform: skewX(-12.5deg) skewY(-12.5deg);
+    }
+
+    33.3% {
+        -webkit-transform: skewX(6.25deg) skewY(6.25deg);
+        transform: skewX(6.25deg) skewY(6.25deg);
+    }
+
+    44.4% {
+        -webkit-transform: skewX(-3.125deg) skewY(-3.125deg);
+        transform: skewX(-3.125deg) skewY(-3.125deg);
+    }
+
+    55.5% {
+        -webkit-transform: skewX(1.5625deg) skewY(1.5625deg);
+        transform: skewX(1.5625deg) skewY(1.5625deg);
+    }
+
+    66.6% {
+        -webkit-transform: skewX(-0.78125deg) skewY(-0.78125deg);
+        transform: skewX(-0.78125deg) skewY(-0.78125deg);
+    }
+
+    77.7% {
+        -webkit-transform: skewX(0.390625deg) skewY(0.390625deg);
+        transform: skewX(0.390625deg) skewY(0.390625deg);
+    }
+
+    88.8% {
+        -webkit-transform: skewX(-0.1953125deg) skewY(-0.1953125deg);
+        transform: skewX(-0.1953125deg) skewY(-0.1953125deg);
+    }
+}
+
+@keyframes lightSpeedIn{
+    from {
+        -webkit-transform: translate3d(100%, 0, 0) skewX(-30deg);
+        transform: translate3d(100%, 0, 0) skewX(-30deg);
+        opacity: 0;
+    }
+
+    60% {
+        -webkit-transform: skewX(20deg);
+        transform: skewX(20deg);
+        opacity: 1;
+    }
+
+    80% {
+        -webkit-transform: skewX(-5deg);
+        transform: skewX(-5deg);
+    }
+
+    to {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+// Animation
+
+$maisZoom: zoomIn;
+$menosZoom: zoomOut;
+$sanfona: sanfona;
+$sanfona_subMenu: sanfona_subMenu;
+$walkLeft: andarEsquerda;
+$modalShow: modalZoom;
+$modalHide: modalZoom2;
+$moveStar: moveStar;
+$barSlide: progressBarSlider;
+$surgirTop: cimaBaixo;
+$show: showOpacity;
+$bounce: quicar;
+$bounceLight: quicar2;
+$jello: jello;
+$lightIn: lightSpeedIn;
+
+// Velocidade
+
+$hyperRapido: 0.2s;
+$muitoRapido: 0.4s;
+$rapido: 1s;
+$poucoRapido: 2s;
+$poucoLento: 4s;
+$lento: 6.2s;
+$muitoLento: 8s;
+$hyperLento: 15s;
+
+//Animação background
+
+$sun: 150s;
+$sun-red: 150s;
