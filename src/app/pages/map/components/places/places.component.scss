@@ -1,0 +1,130 @@
+.Village{
+    cursor: pointer;
+    position: absolute;
+    background-image: url("../../../../../assets/img/world/icons/village/1.png");
+    width: 20px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    &.village1{
+        top: 40%;
+        left: 36%;
+    }
+    &.village2{
+        top: 35%;
+        left: 44%;
+    }
+    color: #fff;
+    font-size: 12px;
+    line-height: 6.5;
+    text-align: center;
+    text-indent: -.7rem;
+    white-space: nowrap;
+}
+.Ruins{
+    cursor: pointer;
+    position: absolute;
+    background-image: url("../../../../../assets/img/world/icons/ruins/5.png");
+    width: 20px;
+    height: 25px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    &.ruins1{
+        top: 41%;
+        left: 57%;
+    }
+    &.ruins2{
+        top: 60%;
+        left: 46%;
+    }
+    color: #fff;
+    font-size: 12px;
+    line-height: 6.5;
+    text-align: center;
+    text-indent: -.7rem;
+    white-space: nowrap;
+}
+.Cities{
+    cursor: pointer;
+    position: absolute;
+    background-image: url("../../../../../assets/img/world/icons/cities/6.png");
+    width: 20px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    &.city1{
+        top: 75%;
+        left: 67%;
+    }
+    &.city2{
+        top: 79%;
+        left: 19%;
+    }
+    &.city3{
+        top: 45%;
+        left: 48%;          
+    }
+    color: #fff;
+    font-size: 12px;
+    line-height: 6.5;
+    text-align: center;
+    text-indent: -.7rem;
+    white-space: nowrap;
+}
+.Especial{
+    cursor: pointer;
+    position: absolute;
+    background-image: url("../../../../../assets/img/world/icons/specials/Pyramid1.png");
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    &.monument1{
+        top: 61%;
+        left: 17%;
+    }
+    color: #fff;
+    font-size: 12px;
+    line-height: 6.5;
+    text-align: center;
+    text-indent: -.7rem;
+    white-space: nowrap;
+}
+.Florest{
+    cursor: pointer;
+    position: absolute;
+    background-image: url("../../../../../assets/img/world/icons/florest/13.png");
+    width: 25px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    &.florest1{
+        top: 46%;
+        left: 42%;
+    }
+    color: #fff;
+    font-size: 12px;
+    line-height: 6.5;
+    text-align: center;
+    text-indent: -.7rem;
+    white-space: nowrap;
+}
+.Mines{
+    cursor: pointer;
+    position: absolute;
+    background-image: url("../../../../../assets/img/world/icons/mine/Cave_enter.png");
+    width: 35px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    &.cavern1{
+        top: 30%;
+        left: 50%;
+    }
+    color: #fff;
+    font-size: 12px;
+    line-height: 6.5;
+    text-align: center;
+    text-indent: -1rem;
+    white-space: nowrap;
+}

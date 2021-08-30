@@ -1,0 +1,31 @@
+@import "../../../../assets/scss/settings/_fonts";
+@import "../../../../assets/scss/settings/_colors";
+
+.menu{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $p-color;
+    ul{
+        display: flex;
+        li{
+            list-style: none;
+            padding: 5px;
+            cursor: pointer;
+            color: $white;
+            margin: 0 20px;
+            width: 150px;
+            text-align: center;
+            &:hover{
+                color: $s-color;
+            }
+            h3{
+                font-size: $f-big;
+                letter-spacing: 2px;
+                font-weight: normal;
+            }
+        }
+    }
+}

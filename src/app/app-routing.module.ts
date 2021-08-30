@@ -15,6 +15,14 @@ const routes: Routes = [
   {
     path: 'inventory',
     loadChildren: () => import('./pages/inventory/inventory.module').then(mod => mod.InventoryModule)   
+  },
+  {
+    path: 'myCity',
+    loadChildren: () => import('./pages/my-city/my-city.module').then(mod => mod.MyCityModule)   
+  },
+  {
+    path: 'myFaction',
+    loadChildren: () => import('./pages/my-faction/my-faction.module').then(mod => mod.MyFactionModule)   
   }
 ];
 

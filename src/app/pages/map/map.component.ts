@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { PlacesMock } from 'src/app/shared/mocks/places/placesMock';
 
 @Component({
   selector: 'app-map',
@@ -6,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./map.component.scss']
 })
 export class MapComponent implements OnInit {
+  public newPlaces: any = PlacesMock;
 
   constructor() { }
 

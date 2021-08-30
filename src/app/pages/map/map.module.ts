@@ -5,6 +5,8 @@ import { NextTurnComponent } from 'src/app/shared/modais/next-turn/next-turn.com
 import { BuyOrSellComponent } from 'src/app/shared/modais/buy-or-sell/buy-or-sell.component';
 import { MapRoutingModule } from './map-routing.module';
 import { MapComponent } from './map.component';
+import { PlacesComponent } from './components/places/places.component';
+import { DescPlacesComponent } from 'src/app/shared/modais/desc-places/desc-places.component';
 
 
 
@@ -13,7 +15,9 @@ import { MapComponent } from './map.component';
     MapComponent,
     NewsComponent,
     NextTurnComponent,
-    BuyOrSellComponent
+    BuyOrSellComponent,
+    PlacesComponent,
+    DescPlacesComponent
   ],
   imports: [
     CommonModule,

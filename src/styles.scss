@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+@import "./assets/scss/settings/_fonts";
+
+* {
+    font-family: $staatliches;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #536C71;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}

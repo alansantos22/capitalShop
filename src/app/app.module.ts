@@ -8,18 +8,22 @@ import { FooterComponent } from './shared/components/footer/footer.component';
 
 import { InventoryModule } from './pages/inventory/inventory.module';
 import { MapModule } from './pages/map/map.module';
+import { MyCityModule } from './pages/my-city/my-city.module';
+import { MyFactionModule } from './pages/my-faction/my-faction.module';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     MapModule,
-    InventoryModule
+    InventoryModule,
+    MyCityModule,
+    MyFactionModule
   ],
   providers: [],
   bootstrap: [AppComponent]
